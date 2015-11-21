@@ -133,6 +133,29 @@
     
     f = 3 / 7.0;
     NSLog(@"f: %f", f);
+    
+    f = M_PI;
+    NSLog(@"f: %f", f);
+    
+    NSLog(@"f: %.12f", f);
+    
+    f = sqrt(2);
+    NSLog(@"f: %f", f);
+    
+    f = M_SQRT2;
+    NSLog(@"f: %f", f);
+    
+    f = sqrt(81);
+    NSLog(@"f: %f", f);
+    
+    f = pow(3,3);
+    NSLog(@"f: %f", f);
+    
+    f = exp2(63) - 1;
+    NSLog(@"f: %f", f);
+    
+    
+    
 
     
     
