@@ -101,6 +101,20 @@
     NSLog(@"a > b: %d", aIsGreaterThanB);
     NSLog(@"a < b: %d", aIsLessThanB);
     
+    NSInteger x =2 + 3 * 5;
+    NSLog(@"x: %li", x);
+    
+    x = (2 + 3) * 5;
+    NSLog(@"x: %li", x);
+    
+    NSInteger y = 5 - 8 * 4 + 2;
+    NSLog(@"y: %li", y);
+    
+    y = 5 - 8 * (4 + 2);
+    NSLog(@"y: %li", y);
+    
+    
+    
     
     
     
